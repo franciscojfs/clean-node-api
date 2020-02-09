@@ -18,7 +18,13 @@ describe('DbAddAccount Usecase', () => {
 
     }
 
-    sut.add(accountData)
+    sut.add(accountData).then((value) => {
+
+    })
+    .catch((error) => {
+
+    })
+    
     expect(encryptSpy).toHaveBeenCalledWith('valid_password')
   })
 })
