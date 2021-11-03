@@ -32,6 +32,6 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
-    "validator": "^12.2.0"
+    "validator": "^13.7.0"
   }
 }
